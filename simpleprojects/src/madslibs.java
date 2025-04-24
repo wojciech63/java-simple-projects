@@ -1,6 +1,7 @@
+package simpleprojects.src;
 import java.util.Scanner;
 
-public class App {
+public class madslibs {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

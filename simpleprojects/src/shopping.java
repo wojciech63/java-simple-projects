@@ -1,3 +1,4 @@
+package simpleprojects.src;
 import java.util.Scanner;
 
 public class shopping {

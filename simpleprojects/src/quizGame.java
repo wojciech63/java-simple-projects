@@ -30,11 +30,27 @@ public class quizGame {
             for(String option : options[i]){
                 System.out.println(option);
             }
+
+            System.out.print("Enter your guess: ");
+            guess = scanner.nextInt();
+
+            if(guess == answers[i]){
+                score++;
+                System.out.println("*******");
+                System.out.println("Corect!");
+                System.out.println("********");
+            }
+            else{
+                System.out.println("******");
+                System.out.println("Wrong!");
+                System.out.println("*******");
+            }
         }
-    // QUESTION (LOOP)
-    // LIST OPTIONS
-    // GET ANSWER
-    // CHECK GUESS
+        System.out.println("****************");
+        System.out.println("Your score is: " + score);
+        System.out.println("****************");
+
+
     // DISPLAY SCORE
     scanner.close();
     }
